@@ -1,0 +1,21 @@
+name: Ola Mundo
+#nome do github action
+
+#evento que dispara o workflow
+on:
+    #dispara o evento manualmente
+    workflow_dispatch:
+
+
+#define os jobs a serem executados
+jobs:
+    #define o job ola
+    ola:
+        #define o ambiente de execucao
+        runs-on: ubuntu-latest
+
+        #define o passos a serem executados
+        steps:
+            -name: Dizer olá
+             run: echo "Olá a todos"
+        
