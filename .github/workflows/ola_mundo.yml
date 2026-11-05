@@ -16,6 +16,6 @@ jobs:
 
         #define o passos a serem executados
         steps:
-            -name: Dizer olá
-             run: echo "Olá a todos"
+            - name: Dizer olá
+              run: echo "Olá a todos"
         
